@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="bg-zinc-900 flex-col px-14 w-full h-full flex items-center gap-10 justify-center">
+        <a class="text-blue-500" href="/read">See the database</a>
+        <div class="text-4xl">Home</div>
+         <form class="flex flex-wrap justify-center gap-5" action="/create" method="post">
+             <input class="relative text-black z-4 outline-none p-4 rounded-lg"  placeholder="name" name="name" type="text">
+             <input class="relative text-black z-4 outline-none p-4 rounded-lg" placeholder="email" type="text" name="email">
+             <input class="relative text-black z-4 outline-none p-4 rounded-lg" type="text" placeholder="image url" name="image">
+            <button class="relative z-4 outline-none bg-blue-500 p-4 rounded-lg">Create user</button>
+        </form>
+    </div>
+
+</body>
+</html>
